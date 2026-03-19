@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <link rel="stylesheet" href="src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aluno Online</title>
   </head>
   <body>
     <script type="module" src="/src/main.js"></script>
-    <aside>
-      <header>
+    <aside class="aside-background">
+      <header class="aside-header">
         <img src="/learn.svg" alt="Logo do Aluno Online" />
-        <h1>Aluno Online</h1>
+        <h2>Aluno Online</h2>
       </header>
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Notas</a></li>
           <li><a href="#">Faltas</a></li>
@@ -25,7 +26,7 @@
       </nav>
     </aside>
     <main>
-      <header>
+      <header class="main-header">
         <h1>Olá, Aluno!</h1>
         <img src="/avatar.svg" alt="Avatar do usuário" />
       </header>
@@ -33,30 +34,30 @@
         <header>
           <h2>Bem-vindo ao portal do aluno</h2>
         </header>
-        <section>
-          <h3>Mural de Avisos</h3>
+        <article class="warning">
+          <h3 class="warning-header">Mural de Avisos</h3>
           <ul>
             <li>Inscrição para o projeto de extensão</li>
             <li>Eleição para representante de turma</li>
           </ul>
-        </section>
-        <section>
-          <h3>Calendário Acadêmico</h3>
+        </article>
+        <article class="warning">
+          <h3 class="warning-header">Calendário Acadêmico</h3>
           <ul>
             <li>23/02 - Início do período letivo 2026-1</li>
             <li>25/04 - Prazo final para aplicação da P1</li>
             <li>23/06 - Prazo final para aplicação da P2</li>
             <li>04/07 - Fim do período letivo 2026-1</li>
           </ul>
-        </section>
-        <section>
-          <h3>Minhas Disciplinas</h3>
+        </article>
+        <article class="warning">
+          <h3 class="warning-header">Minhas Disciplinas</h3>
           <ul>
             <li>Banco de Dados I (HMDC253)</li>
             <li>Estrutura de Dados (MDC127)</li>
             <li>Tecnologias Web (HMDC251)</li>
           </ul>
-        </section>
+        </article>
       </section>
     </main>
   </body>
